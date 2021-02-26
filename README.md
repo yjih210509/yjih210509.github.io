@@ -1,9 +1,11 @@
+# 엉겹결에 만들어본 웹 청첩장
+
+아래의 template에 disqus 기반 방명록 추가해서 만든 청첩장...
+
 # Malt
 
 Event marketing template for Jekyll. Browse through a [live demo](https://whispering-boat.cloudvent.net/).
 Increase the web presence of your event with this configurable theme.
-
-![Malt](images/_screenshot.jpg)
 
 CloudCannon was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
