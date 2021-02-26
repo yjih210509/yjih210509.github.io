@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Malt Template
+title: 홍윤지 & 황인환 청첩장
 url: "https://yjih210509.github.io/"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ eventbrite_embed: '<div style="width:100%; text-align:left;"><iframe src="//even
 timezone: Etc/UTC
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /images/1.png
 description: Event marketing template for Jekyll.
 author:
   name:
