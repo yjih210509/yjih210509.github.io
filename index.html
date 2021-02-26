@@ -10,7 +10,7 @@ map:
   longitude: 126.9963525693427
 invit_pic:
   - main_image: /images/6.jpg
-    title: 저희의 결혼식에 초대합니다.
+    title: 
     link: #
 photos:
   - image: /images/1.jpg
@@ -99,9 +99,13 @@ _options:
 		</var>
 	</span>
 </p>
-<p class="editable">오셔서 많이 축하 해주세요</p>
+<p class="editable">
+  123<br>
+  456<br>
+  789<br>
+</p>
 
-<h3 class="editable">Welcome</h3>
+<h3 class="editable">환영합니다</h3>
 <div class="gallery">
 	{% for feature in page.invit_pic %}
 		<a href="{% include relative-src.html src=feature.link %}">
@@ -137,10 +141,10 @@ _options:
 	{% endfor %}
 </div>
 
-<h3 class="editable">Contact</h3>
-<p class="editable">Send us a message with any questions about sponsoring the event, tickets or anything else.</p>
+<h3 class="editable">방명록</h3>
+<p class="editable">신랑 신부에게 한마디 남겨주세요</p>
 
-<form method="post" action="{{ site.baseurl }}/index.html?submit=success">
+<!-- <form method="post" action="{{ site.baseurl }}/index.html?submit=success">
 	<label for="email_address">Email Address</label>
 	<input id="email_address" type="text" name="email">
 
@@ -154,7 +158,27 @@ _options:
 	<input type="text" name="_gotcha" style="display: none;">
 
 	<input type="submit" value="Send Message">
-</form>
+</form> -->
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://inhwan.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
