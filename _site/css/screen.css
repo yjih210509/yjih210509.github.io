@@ -60,7 +60,7 @@ a {
     width: 20px; }
 
 h1 img.logo {
-  width: 230px; }
+  width: 75%; }
 
 .content {
   background: rgba(0, 0, 0, 0.2);
@@ -157,12 +157,12 @@ h1 img.logo {
   .grid .grid-item {
     width: 300px;
     line-height: 0;
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box; }
     .grid .grid-item a {
       display: inline-block; }
       .grid .grid-item a img {
-        width: 100%; }
+        width: 70%; }
 
 .copyright {
   text-align: center;
