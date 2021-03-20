@@ -17,7 +17,7 @@ input {
 
 body {
   max-width: 1024px;
-  margin: 100px auto;
+  margin: 100px 10px;
   text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
   color: rgb(0, 0, 0);
   min-height: 100vh; }
