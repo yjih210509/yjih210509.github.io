@@ -5,11 +5,11 @@ body {
 }
 
 html {
-	background-color: #4c5269;
+	background-color: #e1e3ec;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	min-width: 380px;
+	min-width: 300px;
 }
 
 html,
@@ -22,7 +22,7 @@ body {
 	max-width: 1024px;
 	margin: 100px auto;
 	text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
-	color: #fff;
+	color: rgb(0, 0, 0);
 	min-height: 100vh;
 }
 
@@ -65,7 +65,7 @@ address {
 }
 
 a {
-	color: #fffbeb;
+	color: #000000;
 	text-decoration: none;
 
 	&:hover {
