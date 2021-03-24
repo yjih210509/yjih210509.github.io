@@ -4,22 +4,22 @@ body {
   padding: 0; }
 
 html {
-  background-color: #faf5cc;
+  background-color: #4c5269;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-width: 300px; }
+  min-width: 380px; }
 
 html,
 textarea,
 input {
-  font-family: '맑은고딕', '고딕'; }
+  font-family: 'Abel', sans-serif; }
 
 body {
   max-width: 1024px;
-  margin: 10% 5%;
+  margin: 100px auto;
   text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
-  color: rgb(0, 0, 0);
+  color: #fff;
   min-height: 100vh; }
 
 h1,
@@ -49,6 +49,7 @@ address {
     fill: #ffacac; }
 
 a {
+  color: #fffbeb;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -59,7 +60,7 @@ a {
     width: 20px; }
 
 h1 img.logo {
-  width: 75%; }
+  width: 25%; }
 
 .content {
   background: rgba(0, 0, 0, 0.2);
@@ -88,15 +89,15 @@ h1 img.logo {
   flex-wrap: wrap;
   margin-top: 10px; }
   .gallery a {
-    height: 310px;
+    height: 100%;
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    margin: 30px 0;
+    margin: 10px 0;
     display: flex;
     align-items: center; }
     .gallery a .inner-wrapper {
-      padding: 0 40px;
+      padding: 0 0;
       margin: 0 auto; }
     @media (min-width: 450px) {
       .gallery a {
@@ -105,8 +106,7 @@ h1 img.logo {
       .gallery a {
         width: 100%; } }
     .gallery a img {
-      width: 100%;
-      max-width: 600px; }
+      width: 100%; }
     .gallery a:hover {
       text-decoration: underline; }
     .gallery a .caption {
@@ -156,7 +156,7 @@ h1 img.logo {
   .grid .grid-item {
     width: 300px;
     line-height: 0;
-    margin: 10px;
+    margin: 5px;
     box-sizing: border-box; }
     .grid .grid-item a {
       display: inline-block; }
@@ -245,7 +245,7 @@ form {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: rgba(252, 143, 234, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 3px; }
 
 .atcb-item {
