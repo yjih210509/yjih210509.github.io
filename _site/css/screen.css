@@ -164,7 +164,7 @@ h1 img.logo {
     .grid .grid-item a {
       display: inline-block; }
       .grid .grid-item a img {
-        width: 70%; }
+        width: 100%; }
 
 .copyright {
   text-align: center;
