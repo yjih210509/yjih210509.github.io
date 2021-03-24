@@ -8,7 +8,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-width: 380px; }
+  min-width: 100px; }
 
 html,
 textarea,
@@ -25,6 +25,7 @@ body {
 h1,
 h2,
 h3,
+p,
 .dates {
   text-align: center; }
 
