@@ -155,7 +155,7 @@ h1 img.logo {
 .grid {
   margin: 0 auto; }
   .grid .grid-item {
-    width: 300px;
+    width: 100%;
     line-height: 0;
     margin: 5px;
     box-sizing: border-box; }
