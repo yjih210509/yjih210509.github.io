@@ -100,9 +100,9 @@ _options:
 
 
 <h3 class="editable">Photos from Jeju Island</h3>
-<div class="grid">
+<div class="gallery">
 	{% for photo in page.photos %}
-		<div class="grid-item"><a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a></div>
+		<a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a>
 	{% endfor %}
 </div>
 
