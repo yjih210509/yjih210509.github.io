@@ -9,7 +9,7 @@ html {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	min-width: 300px;
+	min-width: 100px;
 }
 
 html,
@@ -20,7 +20,7 @@ input {
 
 body {
 	max-width: 1024px;
-	margin: 10% auto;
+	margin: 100px 10px;
 	text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
 	color: rgb(0, 0, 0);
 	min-height: 100vh;
