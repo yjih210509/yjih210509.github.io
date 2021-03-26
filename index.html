@@ -53,12 +53,12 @@ _options:
 
 <div class="gallery">
 	{% for feature in page.invit_pic %}
-		<!-- <a href="{% include relative-src.html src=feature.link %}"> -->
+		<a>
 			<div class="inner-wrapper">
 				<img src="{% include relative-src.html src=feature.main_image %}" alt="{{ feature.title }}">
 			</div>
 			<p class="caption">{{ feature.title }}</p>
-		<!-- </a> -->
+		</a>
 	{% endfor %}
 </div>
 
