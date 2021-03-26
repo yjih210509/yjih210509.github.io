@@ -53,12 +53,12 @@ _options:
 
 <div class="gallery">
 	{% for feature in page.invit_pic %}
-		<a href="{% include relative-src.html src=feature.link %}">
+		<!-- <a href="{% include relative-src.html src=feature.link %}"> -->
 			<div class="inner-wrapper">
 				<img src="{% include relative-src.html src=feature.main_image %}" alt="{{ feature.title }}">
 			</div>
 			<p class="caption">{{ feature.title }}</p>
-		</a>
+		<!-- </a> -->
 	{% endfor %}
 </div>
 
@@ -91,7 +91,7 @@ _options:
 </p> -->
 
 
-<h3 class="editable">Photos from Jeju Island</h3>
+<h3 class="editable">Photos from <br> Jeju Island</h3>
 <div class="gallery">
 	{% for photo in page.photos %}
 		<a class="fancybox" rel="group" href="{% include relative-src.html src=photo.image %}"><img src="{% include relative-src.html src=photo.image %}" alt="{{ photo.title }}"/></a>
