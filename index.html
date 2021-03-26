@@ -1,5 +1,5 @@
 ---
-title: 황인환 <br> & <br> 홍윤지 <br> Wedding <br> Invitation
+title: 황인환 <br> & <br> 홍윤지 <br><br> Wedding <br> Invitation
 start_datetime: 2021-05-09 11:30:00
 description: 결혼합니다
 map:
@@ -8,7 +8,7 @@ map:
   latitude: 37.556819580233146
   longitude: 126.9963525693427
 invit_pic:
-  - main_image: /images/6.jpg
+  - main_image: /images/yjhong_mobile.jpg
     title: 
     link: #
 photos:
@@ -34,7 +34,7 @@ _options:
 ---
 
 <p class="success">Message sent, we'll be in touch soon.</p>
-
+<br>
 <p class="dates">
 	{{ page.start_datetime | date: "%Y-%m-%d %H:%M:%S" }}
    <!-- - {{ page.end_datetime | date: "%-I%P" }} -->
@@ -50,13 +50,7 @@ _options:
 		</var>
 	</span>
 </p>
-  <h4 class="editable">인생이라는 먼길을 함께할 동반자를 찾았습니다.<br></h4>
-  <h4 class="editable">환하게 빛나는 5월의 어느날, 저희 둘 결혼합니다.<br></h4>
-  <h4 class="editable">윤지와 인환이의 설레는 시작을 축하해주세요.<br></h4>
-  <h4 class="editable">지금처럼 서로 위하고 사랑하는 이 마음,<br></h4>
-  <h4 class="editable">평생 가슴 깊이 새기며 살겠습니다.</h4> 
 
-<h3 class="editable">결혼합니다</h3>
 <div class="gallery">
 	{% for feature in page.invit_pic %}
 		<a href="{% include relative-src.html src=feature.link %}">
