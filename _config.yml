@@ -6,7 +6,7 @@ url: "https://yjih210509.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key: AIzaSyBzqlm_ciXAr9on-yhrLbX9pIREwpqEdyg
-eventbrite_embed: '<div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=29292309085&ref=etckt" frameborder="0" height="285" width="100%" vspace="0" hspace="0" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>'
+eventbrite_embed: '<div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=29292309085&ref=etckt" frameborder="0" height="285" width="100%" vspace="0" hspace="0" marginheight="2" marginwidth="2" scrolling="auto" allowtransparency="true"></iframe><div style="font-family: 나눔명조, 명조; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>'
 timezone: 
 comments: true
 
