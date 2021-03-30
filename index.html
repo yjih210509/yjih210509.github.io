@@ -1,7 +1,8 @@
 ---
 title: Wedding<br>Invitation
 start_datetime: 2021-05-09 11:30:00
-exact_time: (일) 오전 11시 30분
+day_of_week: (일)
+exact_time: 오전 11시 30분
 description: 라 비 두 스
 map:
   address: 서울 중구 필동로5길 7 (라비두스)
@@ -45,7 +46,7 @@ _options:
 <p class="success">Message sent, we'll be in touch soon.</p>
 <br>
 <p class="dates">
-	{{ page.start_datetime | date: "%Y-%m-%d" }}<br><br>
+	{{ page.start_datetime | date: "%Y-%m-%d" }} {{ page.day_of_week }}<br><br>
 	{{ page.exact_time }}<br><br>
 	{{ page.description }}
    <!-- - {{ page.end_datetime | date: "%-I%P" }} -->
