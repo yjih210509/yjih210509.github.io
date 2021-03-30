@@ -1,6 +1,7 @@
 ---
 title: Wedding<br>Invitation
 start_datetime: 2021-05-09 11:30:00
+exact_time: 오전 11시 30분
 description: 라비두스
 map:
   address: 서울 중구 필동로5길 7 (라비두스)
@@ -44,7 +45,7 @@ _options:
 <p class="success">Message sent, we'll be in touch soon.</p>
 <br>
 <p class="dates">
-	{{ page.start_datetime | date: "%Y-%m-%d %H:%M:%S" }}<br>
+	{{ page.start_datetime | date: "%Y-%m-%d" }} {{ page.exact_time }}<br>
 	{{ page.description }}
    <!-- - {{ page.end_datetime | date: "%-I%P" }} -->
 	<!-- <span class="addtocalendar atc-style-button-icon atc-style-menu-wb"> -->
@@ -105,7 +106,7 @@ _options:
 
 <!-- <p class="editable"><h4 class="editable">축하화환은 정중히 사양합니다.<br>꼭 보내고 싶으신 분은 화환 대신 쌀드리미 화환으로 보내주시면<br>보내신 분의 마음을 담아 어려운 이웃을 돕는데 쓰겠습니다.<br>*문의처: 드리미 (1544-8489, www.dreame.co.kr)<br></h4></p> -->
 <h3 class="editable">Announcement</h3>
-<p class="editable"><h4 class="editable">안녕하세요,<br>
+<p class="editable"><h4 class="editable">안녕하세요,<br><br>
 	신랑 황인환, 신부 홍윤지 입니다.<br></h4>
 	<br>
 	시간이 지나 코로나19 확산이<br>
